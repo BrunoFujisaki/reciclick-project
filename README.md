@@ -8,7 +8,7 @@
 - [Matheus Costa](https://github.com/MatheusCostaeSilva)  
 
 **Tecnologias:** Vue.js, HTML, CSS, JavaScript  
-**Demo:** [Acesse o projeto no GitHub Pages](https://brunofujisaki.github.io/reciclick-pages/)
+**Demo:** [Acesse o projeto no GitHub Pages](https://brunofujisaki.github.io/reciclick-project/)
 
 ---
 
