@@ -78,7 +78,14 @@ export default {
       this.marcadores.forEach(m => this.map.removeLayer(m));
       this.filtroSelecionado = '';
 
-      this.marcador = L.marker([lat, lon])
+      const casaIcone = L.icon({
+        iconUrl: 'home.png', 
+        iconSize: [24, 24],
+        iconAnchor: [10, 30], 
+        popupAnchor: [0, -40]
+      });
+
+      this.marcador = L.marker([lat, lon], {icon: casaIcone})
         .addTo(this.map);
     }
   },
